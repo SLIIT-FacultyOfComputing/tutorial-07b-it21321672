@@ -14,9 +14,9 @@ int main() {
    cin >> radius;
    // ======== DO NOT CHANGE THE CODE GIVEN ABOVE ====================
    
-   // 1. Create a dynamic Rectangle type variable (pointer)
+   Rectangle *r;// 1. Create a dynamic Rectangle type variable (pointer)
    // 2. Create a dynamic Rectangle Object set the length and width that was input from the keyboard
-   // 3. Create a dynamic Circle type variable (pointer)
+   Circle *c;// 3. Create a dynamic Circle type variable (pointer)
    // 4. Create a dynamic Circle Object set radius that was input from the keyboard
    // 5. Call the display method of the Rectangle Object
    // 6. Call the display method of the Circle Object
