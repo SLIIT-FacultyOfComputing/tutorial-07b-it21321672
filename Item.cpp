@@ -10,10 +10,9 @@ Item::Item(){
 }
 
 // 5. Implement Overloaded Constructor Implementation
-Item::Item(int i,float u, float pdiscount){
-  itemCode = i;
-  unitPrice = u;
-  discount = pdiscount;
+Item::Item(int iCode,float uPrice){
+  itemCode = iCode;
+  unitPrice = uPrice;
 }
 
 // 6. Implement Destructor (display "Destructor Called")
