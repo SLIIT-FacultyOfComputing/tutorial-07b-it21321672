@@ -7,7 +7,7 @@ class Rectangle {
    public:
       Rectangle(); // Default Constructor
       Rectangle(int l, int w); // Overloaded Constructor
-      ~Rectangle(); // Destructor
+      ~Rectangle();  // Destructor
       int calcArea();
       void display();
 };

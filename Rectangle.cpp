@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Default Constructor Implementation
+ // Default Constructor Implementation
 Rectangle::Rectangle() {
    length = 0;
    width = 0;
